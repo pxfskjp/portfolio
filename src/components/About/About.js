@@ -3,9 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
+import Languagestack from "./Languagestack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
+import Databasestack from "./Databasestack";
 
 function About() {
   return (
@@ -22,7 +24,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Who <strong className="purple">Am I?</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -38,7 +40,23 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
 
+        <h1 className="project-heading">
+          <strong className="purple">Languages</strong>
+        </h1>
+
+        <Languagestack />
+
+        <h1 className="project-heading">
+          <strong className="purple">Frameworks and Libraries</strong>
+        </h1>
+
         <Techstack />
+
+        <h1 className="project-heading">
+          <strong className="purple">Storage</strong>
+        </h1>
+
+        <Databasestack />
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
