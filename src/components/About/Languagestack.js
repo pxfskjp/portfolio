@@ -1,56 +1,55 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  DiGit,
+    DiJavascript1,
+    DiPython,
+    DiHtml5,
+    DiCss3,
 } from "react-icons/di";
-import {
-  SiLinux,
-  SiVisualstudiocode,
-  SiJupyter,
-  SiPostman,
-  SiHeroku,
-  SiGithub,
-  SiGithubactions,
-  SiTrello,
-  SiJira,
+import { 
+    SiTypescript,
+    SiPhp,
+    SiRuby,
+    SiJava,
+    SiR,
+    SiGo
 } from "react-icons/si";
 
-function Toolstack() {
+function Languagestack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <DiHtml5 aria-details="asdf" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <DiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJupyter />
+        <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiPhp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
+        <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGithubactions />
+        <SiRuby />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTrello />
+        <SiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJira />
+        <SiGo />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiR />
       </Col>
     </Row>
   );
 }
 
-export default Toolstack;
+export default Languagestack;

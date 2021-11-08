@@ -1,48 +1,94 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
+  DiMeteor,
+  DiAngularSimple,
+  DiJqueryLogo,
+  DiExtjs
 } from "react-icons/di";
-import { SiPytorch, SiTensorflow, SiFirebase } from "react-icons/si";
+import { 
+  SiNextDotJs,
+  SiVueDotJs,
+  SiDjango,
+  SiFlask,
+  SiRedux,
+  SiVuetify,
+  SiMaterialUi,
+  SiStorybook,
+  SiBootstrap,
+  SiLaravel,
+  SiCodeigniter,
+  SiEmberDotJs,
+  SiNuxtDotJs
+} from "react-icons/si";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiRedux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiMaterialUi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <SiStorybook />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTensorflow />
+        <SiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiEmberDotJs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiNuxtDotJs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiExtjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiMeteor />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiAngularSimple />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiJqueryLogo />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiNextDotJs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVueDotJs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVuetify />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiLaravel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCodeigniter />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDjango />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlask />
       </Col>
     </Row>
   );

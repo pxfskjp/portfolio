@@ -1,56 +1,53 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  DiGit,
-} from "react-icons/di";
-import {
-  SiLinux,
-  SiVisualstudiocode,
-  SiJupyter,
-  SiPostman,
-  SiHeroku,
-  SiGithub,
-  SiGithubactions,
-  SiTrello,
-  SiJira,
+import { 
+    SiFirebase,
+    SiMongodb,
+    SiGraphql,
+    SiApollographql,
+    SiRedis,
+    SiMysql,
+    SiPostgresql,
+    SiAmazonaws,
+    SiMariadb,
+    SiOracle
 } from "react-icons/si";
 
-function Toolstack() {
+function Languagestack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <SiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJupyter />
+        <SiApollographql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiRedis />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
+        <SiPostgresql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGithubactions />
+        <SiGraphql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTrello />
+        <SiAmazonaws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJira />
+        <SiMariadb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiOracle />
       </Col>
     </Row>
   );
 }
 
-export default Toolstack;
+export default Languagestack;
