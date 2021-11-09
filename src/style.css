@@ -424,6 +424,14 @@ html {
     color: #700c86 !important;
 }
 
+.logo-character {
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    color: #c770f0;
+    font-weight: 900;
+}
+
 
 /* --------- */
 
