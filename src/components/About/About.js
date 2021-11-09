@@ -5,7 +5,7 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Languagestack from "./Languagestack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import laptopImg from "../../assets/about.png";
 import Toolstack from "./Toolstack";
 import Databasestack from "./Databasestack";
 
