@@ -80,15 +80,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            // <Nav.Item>
-            //   <Nav.Link
-            //     as={Link}
-            //     to="/resume"
-            //     onClick={() => updateExpanded(false)}
-            //   >
-            //     <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-            //   </Nav.Link>
-            // </Nav.Item>
+            {/* <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item> */}
 
             <Nav.Item className="fork-btn">
               <Button
