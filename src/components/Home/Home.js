@@ -4,6 +4,7 @@ import myImg from "../../assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
+  AiFillMail,
   AiFillSkype
 } from "react-icons/ai";
 import {
@@ -92,6 +93,16 @@ function Home() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links w-50">
+              <li className="social-icons">
+                <a
+                  href="mailto:web.developer7290@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillMail />
+                </a>
+              </li>
               <li className="social-icons">
                 <a
                   href="https://github.com/coder7290"
