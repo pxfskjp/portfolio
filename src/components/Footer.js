@@ -14,7 +14,7 @@ function Footer() {
           <h3>Published by NG</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} NG</h3>
+          <h3>Copyright © {year} NG|web.developer7290@gmail.com</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
