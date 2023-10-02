@@ -106,7 +106,7 @@ function Home() {
                     
               <li className="social-icons">
                 <a
-                  href="web.developer7290@gmail.com"
+                  href="mailto:web.developer7290@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
