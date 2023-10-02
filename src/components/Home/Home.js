@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import myImg from "../../assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
@@ -105,13 +106,10 @@ function Home() {
               </li>
                     
               <li className="social-icons">
-                <a
-                  href="mailto:web.developer7290@gmail.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
+               <Link to='javascript:void(0)'
+                    onClick={() => window.location = 'mailto:web.developer7290@gmail.com'}>                
                   <AiOutlineMail />
+              </Link>
                 </a>
               </li>
                     
