@@ -7,6 +7,9 @@ import {
   AiOutlineMail,
   AiFillSkype
 } from "react-icons/ai";
+import {
+  BsDiscord
+} from "react-icons/bs";
 import homeLogo from "../../assets/home-main.svg";
 import Particle from "../Particle";
 import Type from "./Type";
@@ -120,6 +123,17 @@ function Home() {
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillSkype />
+                </a>
+              </li>
+                    
+              <li className="social-icons">
+                <a
+                  href="https://discord.gg/unuwEbfq"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <BsDiscord />
                 </a>
               </li>
             </ul>
