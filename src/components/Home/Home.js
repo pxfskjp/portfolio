@@ -4,6 +4,8 @@ import myImg from "../../assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
+  AiOutlineMail,
+  AiFillSkype
 } from "react-icons/ai";
 import homeLogo from "../../assets/home-main.svg";
 import Particle from "../Particle";
@@ -96,6 +98,28 @@ function Home() {
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
+                </a>
+              </li>
+                    
+              <li className="social-icons">
+                <a
+                  href="web.developer7290@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineMail />
+                </a>
+              </li>
+                    
+              <li className="social-icons">
+                <a
+                  href="https://join.skype.com/invite/vrs03YnsWJ3v"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillSkype />
                 </a>
               </li>
             </ul>
