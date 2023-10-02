@@ -8,8 +8,8 @@ import {
   AiFillSkype
 } from "react-icons/ai";
 import {
-  BsDiscord
-} from "react-icons/bs";
+  FaDiscord
+} from "react-icons/fa";
 import homeLogo from "../../assets/home-main.svg";
 import Particle from "../Particle";
 import Type from "./Type";
@@ -133,7 +133,7 @@ function Home() {
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <BsDiscord />
+                  <FaDiscord />
                 </a>
               </li>
             </ul>
