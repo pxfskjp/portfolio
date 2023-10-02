@@ -5,7 +5,6 @@ import myImg from "../../assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineMail,
   AiFillSkype
 } from "react-icons/ai";
 import {
@@ -104,13 +103,7 @@ function Home() {
                   <AiFillGithub />
                 </a>
               </li>
-                    
-              <li className="social-icons">
-               <Link to='mailto:web.developer7290@gmail.com'>                
-                    <AiOutlineMail />
-                </Link>
-              </li>
-                    
+          
               <li className="social-icons">
                 <a
                   href="https://join.skype.com/invite/vrs03YnsWJ3v"
