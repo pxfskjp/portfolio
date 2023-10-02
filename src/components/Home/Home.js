@@ -108,9 +108,8 @@ function Home() {
               <li className="social-icons">
                <Link to='javascript:void(0)'
                     onClick={() => window.location = 'mailto:web.developer7290@gmail.com'}>                
-                  <AiOutlineMail />
-              </Link>
-                </a>
+                    <AiOutlineMail />
+                </Link>
               </li>
                     
               <li className="social-icons">
