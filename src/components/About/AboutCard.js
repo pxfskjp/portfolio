@@ -31,7 +31,6 @@ function AboutCard() {
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             "Bringing Everyone's Strength Together!"{" "}
           </p>
-          <footer className="blockquote-footer">Gunther</footer>
         </blockquote>
       </Card.Body>
     </Card>
